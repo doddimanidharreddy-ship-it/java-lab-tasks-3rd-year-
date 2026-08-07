@@ -1,28 +1,19 @@
-// Java Program to Reverse a String
-// Using StringBuilder's built-in reverse() method
+// Problem Statement: Write a Java program to reverse a given string.
 public class ReverseString {
-
-    // Method to reverse a given string
-    // Uses StringBuilder for efficient string manipulation
-    static String reverseString(String str)
-    {
-        // Create StringBuilder object from input string
+    public static String reverse(String str) {
         StringBuilder sb = new StringBuilder(str);
-
-        // Use built-in reverse() method to reverse the string
         return sb.reverse().toString();
     }
 
-    // Main driver method
-    public static void main(String[] args)
-    {
-        // Initialize string to be reversed
-        String str = "GeeksForGeeks";
-
-        // Display original string
-        System.out.println("Original String: " + str);
-
-        // Call reverse method and display reversed string
-        System.out.println("Reversed String: " + reverseString(str));
+    public static void main(String[] args) {
+        String input = "JavaProgramming";
+        String reversed = reverse(input);
+        System.out.println("Original String: " + input);
+        System.out.println("Reversed String: " + reversed);
     }
 }
+/*
+OUTPUT:
+Original String: JavaProgramming
+Reversed String: gnimmargorPavaJ
+*/

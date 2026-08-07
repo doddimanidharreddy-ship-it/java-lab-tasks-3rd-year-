@@ -1,38 +1,23 @@
-// Java Program to Print Fibonacci Series
-// Using Iterative Approach
+// Problem Statement: Write a Java program to generate and print the first N numbers of the Fibonacci series.
 public class Fibonacci {
-
-    // Method to print Fibonacci series up to n terms
-    // Series: 0, 1, 1, 2, 3, 5, 8, 13, 21...
-    static void printFibonacci(int n)
-    {
-        // Initialize first two terms of the series
-        int first = 0, second = 1;
-
+    public static void printFibonacci(int n) {
+        int a = 0, b = 1;
         System.out.print("Fibonacci Series (" + n + " terms): ");
-
-        // Loop to print n terms of Fibonacci series
-        for (int i = 0; i < n; i++) {
-
-            // Print the current term
-            System.out.print(first + " ");
-
-            // Calculate next Fibonacci number
-            int next = first + second;
-
-            // Update values for next iteration
-            first = second;
-            second = next;
+        for (int i = 1; i <= n; i++) {
+            System.out.print(a + (i == n ? "" : ", "));
+            int next = a + b;
+            a = b;
+            b = next;
         }
+        System.out.println();
     }
 
-    // Main driver method
-    public static void main(String[] args)
-    {
-        // Number of Fibonacci terms to print
-        int n = 10;
-
-        // Call method to print Fibonacci series
-        printFibonacci(n);
+    public static void main(String[] args) {
+        int terms = 8;
+        printFibonacci(terms);
     }
 }
+/*
+OUTPUT:
+Fibonacci Series (8 terms): 0, 1, 1, 2, 3, 5, 8, 13
+*/

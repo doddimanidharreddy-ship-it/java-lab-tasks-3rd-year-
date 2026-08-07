@@ -1,40 +1,25 @@
-// Java Program to Check Whether a Number is Prime or Not
-// A prime number is divisible only by 1 and itself
+// Problem Statement: Write a Java program to check whether a given number is Prime or not.
 public class PrimeNumber {
-
-    // Method to check if a given number is prime
-    // Uses optimized approach checking up to sqrt(n)
-    static boolean isPrime(int n)
-    {
-        // Numbers less than 2 are not prime numbers
-        if (n < 2)
-            return false;
-
-        // Check divisibility from 2 to square root of n
-        // If divisible by any number in this range, not prime
-        for (int i = 2; i <= Math.sqrt(n); i++) {
-
-            // If n is divisible by i, it's not a prime number
-            if (n % i == 0)
-                return false;
+    public static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) return false;
         }
-
-        // Number is prime if no divisor found
         return true;
     }
 
-    // Main driver method
-    public static void main(String[] args)
-    {
-        // Test prime check for multiple numbers
-        int[] numbers = { 2, 3, 4, 17, 25, 97, 100 };
-
-        // Check and display whether each number is prime
-        for (int num : numbers) {
-            if (isPrime(num))
-                System.out.println(num + " is Prime");
-            else
-                System.out.println(num + " is Not Prime");
+    public static void main(String[] args) {
+        int[] testNumbers = {2, 17, 24, 29, 35};
+        for (int num : testNumbers) {
+            System.out.println(num + " is prime? " + isPrime(num));
         }
     }
 }
+/*
+OUTPUT:
+2 is prime? true
+17 is prime? true
+24 is prime? false
+29 is prime? true
+35 is prime? false
+*/

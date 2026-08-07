@@ -1,91 +1,53 @@
-// Java Program to Implement Stack Data Structure
-// Using Array - LIFO (Last In First Out) principle
+// Problem Statement: Write a Java program to implement a basic Stack data structure.
 public class Stack {
+    private int maxSize;
+    private int[] stackArray;
+    private int top;
 
-    // Array to store stack elements
-    int[] stackArr;
-
-    // Variable to track the top index of stack
-    int top;
-
-    // Maximum capacity of the stack
-    int capacity;
-
-    // Constructor to initialize stack with given size
-    Stack(int size)
-    {
-        stackArr = new int[size];
-        capacity = size;
-        top = -1; // top = -1 means stack is empty
+    public Stack(int size) {
+        this.maxSize = size;
+        this.stackArray = new int[maxSize];
+        this.top = -1;
     }
 
-    // Method to push (insert) element onto top of stack
-    void push(int element)
-    {
-        // Check if stack has reached its maximum capacity
-        if (top == capacity - 1) {
-            System.out.println("Stack Overflow! Cannot push " + element);
-            return;
+    public void push(int value) {
+        if (top < maxSize - 1) {
+            stackArray[++top] = value;
+            System.out.println("Pushed: " + value);
+        } else {
+            System.out.println("Stack Overflow!");
         }
-
-        // Increment top pointer and add element at top
-        top++;
-        stackArr[top] = element;
-        System.out.println(element + " pushed to stack");
     }
 
-    // Method to pop (remove) element from top of stack
-    int pop()
-    {
-        // Check if stack is empty before popping
-        if (top == -1) {
-            System.out.println("Stack Underflow! Stack is empty");
+    public int pop() {
+        if (top >= 0) {
+            return stackArray[top--];
+        } else {
+            System.out.println("Stack Underflow!");
             return -1;
         }
-
-        // Return element at top and decrement top pointer
-        return stackArr[top--];
     }
 
-    // Method to peek top element without removing it
-    int peek()
-    {
-        // Check if stack is empty
-        if (top == -1) {
-            System.out.println("Stack is empty");
-            return -1;
-        }
-
-        // Return element at top without changing top pointer
-        return stackArr[top];
+    public int peek() {
+        return (top >= 0) ? stackArray[top] : -1;
     }
 
-    // Method to check whether stack is empty
-    boolean isEmpty()
-    {
-        return top == -1;
-    }
-
-    // Main driver method
-    public static void main(String[] args)
-    {
-        // Create stack with capacity of 5 elements
+    public static void main(String[] args) {
         Stack stack = new Stack(5);
-
-        // Push elements onto the stack
         stack.push(10);
         stack.push(20);
         stack.push(30);
-        stack.push(40);
-
-        // Display the current top element
-        System.out.println("Top element: " + stack.peek());
-
-        // Pop elements from the stack
-        System.out.println(stack.pop() + " popped from stack");
-        System.out.println(stack.pop() + " popped from stack");
-
-        // Display top element after pops
-        System.out.println("Top element after pops: " + stack.peek());
+        System.out.println("Top element (peek): " + stack.peek());
+        System.out.println("Popped element: " + stack.pop());
+        System.out.println("Top element after pop: " + stack.peek());
     }
 }
+/*
+OUTPUT:
+Pushed: 10
+Pushed: 20
+Pushed: 30
+Top element (peek): 30
+Popped element: 30
+Top element after pop: 20
+*/

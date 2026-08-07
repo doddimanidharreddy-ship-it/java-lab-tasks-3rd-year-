@@ -1,27 +1,21 @@
-// Java Program to Find Factorial of a Number
-// Using Recursion
+// Problem Statement: Write a Java program to calculate the factorial of a given number.
 public class Factorial {
-
-    // Recursive method to calculate factorial of n
-    // factorial(n) = n * factorial(n-1)
-    // Base Case: factorial(0) = factorial(1) = 1
-    static long factorial(int n)
-    {
-        // Base case: factorial of 0 or 1 is 1
-        if (n == 0 || n == 1)
-            return 1;
-
-        // Recursive case: n multiplied by factorial of (n-1)
-        return (long) n * factorial(n - 1);
+    public static long getFactorial(int n) {
+        if (n < 0) return -1;
+        long fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        return fact;
     }
 
-    // Main driver method
-    public static void main(String[] args)
-    {
-        // Test factorial for different values of n
-        int num = 10;
-
-        // Display factorial result
-        System.out.println("Factorial of " + num + " = " + factorial(num));
+    public static void main(String[] args) {
+        int num = 6;
+        long result = getFactorial(num);
+        System.out.println("Factorial of " + num + " is: " + result);
     }
 }
+/*
+OUTPUT:
+Factorial of 6 is: 720
+*/

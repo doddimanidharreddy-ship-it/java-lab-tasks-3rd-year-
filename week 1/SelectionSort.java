@@ -1,48 +1,31 @@
-// Java Program to Sort an Array
-// Using Selection Sort Algorithm
+// Problem Statement: Write a Java program to sort an array using the Selection Sort algorithm.
+import java.util.Arrays;
+
 public class SelectionSort {
-
-    // Method to sort array using selection sort
-    // Finds minimum element and places it at correct position
-    static void selectionSort(int[] arr)
-    {
+    public static void selectionSort(int[] arr) {
         int n = arr.length;
-
-        // Move boundary of unsorted subarray one by one
         for (int i = 0; i < n - 1; i++) {
-
-            // Find minimum element index in unsorted portion
             int minIdx = i;
-
             for (int j = i + 1; j < n; j++) {
-
-                // Update minIdx if a smaller element is found
-                if (arr[j] < arr[minIdx])
+                if (arr[j] < arr[minIdx]) {
                     minIdx = j;
+                }
             }
-
-            // Swap found minimum element with first unsorted element
             int temp = arr[minIdx];
             arr[minIdx] = arr[i];
             arr[i] = temp;
         }
     }
 
-    // Main driver method
-    public static void main(String[] args)
-    {
-        // Initialize unsorted array
-        int[] arr = { -7, -5, 5, 10, 0, 3, 20, 25, 12 };
-
-        System.out.print("Array before sorting: ");
-        for (int i = 0; i < arr.length; i++)
-            System.out.print(arr[i] + " ");
-
-        // Call selection sort to sort the array
+    public static void main(String[] args) {
+        int[] arr = {29, 10, 14, 37, 14};
+        System.out.println("Original Array: " + Arrays.toString(arr));
         selectionSort(arr);
-
-        System.out.print("\nArray after sorting:  ");
-        for (int i = 0; i < arr.length; i++)
-            System.out.print(arr[i] + " ");
+        System.out.println("Sorted Array: " + Arrays.toString(arr));
     }
 }
+/*
+OUTPUT:
+Original Array: [29, 10, 14, 37, 14]
+Sorted Array: [10, 14, 14, 29, 37]
+*/
