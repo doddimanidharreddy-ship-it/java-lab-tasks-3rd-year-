@@ -4,71 +4,123 @@ A comprehensive repository of well-commented Java programs covering fundamental 
 
 ---
 
-## 📚 Repository Structure
+## 📚 Repository Structure & Standardized Files
 
 ### 📁 `week 8/` — Object-Oriented Problem Solving & Design Patterns
-
-| Task # | Problem Name | Platform | Key Concept | Solution File |
-| :--- | :--- | :--- | :--- | :--- |
-| **Task 1** | [Java Method Overriding](https://www.hackerrank.com/challenges/java-method-overriding/) | HackerRank | Polymorphism, Method Overriding | [`Task01_JavaMethodOverriding.java`](./week%208/Task01_JavaMethodOverriding.java) |
-| **Task 2** | [Java Method Overriding 2 (Super Keyword)](https://www.hackerrank.com/challenges/java-method-overriding-2-super-keyword/) | HackerRank | Super Keyword Usage | [`Task02_JavaMethodOverriding2SuperKeyword.java`](./week%208/Task02_JavaMethodOverriding2SuperKeyword.java) |
-| **Task 3** | [Java Singleton Pattern](https://www.hackerrank.com/challenges/java-singleton/) | HackerRank | Singleton Design Pattern | [`Task03_JavaSingletonPattern.java`](./week%208/Task03_JavaSingletonPattern.java) |
-| **Task 4** | [Java Visitor Pattern](https://www.hackerrank.com/challenges/java-visitor-pattern/) | HackerRank | Visitor Pattern & Tree Traversal | [`Task04_JavaVisitorPattern.java`](./week%208/Task04_JavaVisitorPattern.java) |
-| **Task 5** | [Java Iterator](https://www.hackerrank.com/challenges/java-iterator/problem) | HackerRank | Iterator Filtering Logic | [`Task05_JavaIterator.java`](./week%208/Task05_JavaIterator.java) |
-| **Task 6** | [Java Interface](https://www.hackerrank.com/challenges/java-interface/) | HackerRank | Interface Implementation | [`Task06_JavaInterface.java`](./week%208/Task06_JavaInterface.java) |
-| **Task 7** | [Java HashSet](https://www.hackerrank.com/challenges/java-hashset/problem) | HackerRank | HashSet Unique Pairs | [`Task07_JavaHashSet.java`](./week%208/Task07_JavaHashSet.java) |
-| **Task 8** | [Java Factory Pattern](https://www.hackerrank.com/challenges/java-factory/problem) | HackerRank | Factory Design Pattern | [`Task08_JavaFactoryPattern.java`](./week%208/Task08_JavaFactoryPattern.java) |
-| **Task 9** | [Java Exception Handling](https://www.hackerrank.com/challenges/java-exception-handling/) | HackerRank | Thrown Custom Exceptions | [`Task09_JavaExceptionHandling.java`](./week%208/Task09_JavaExceptionHandling.java) |
-| **Task 10** | [Java Exception Handling (Try-catch)](https://www.hackerrank.com/challenges/java-exception-handling-try-catch/) | HackerRank | Try-Catch Input & Arithmetic | [`Task10_JavaExceptionHandlingTryCatch.java`](./week%208/Task10_JavaExceptionHandlingTryCatch.java) |
-
----
+- `week8_task1_JavaMethodOverriding2SuperKeyword.java`
+- `week8_task2_JavaSingletonPattern.java`
+- `week8_task3_JavaVisitorPattern.java`
+- `week8_task4_JavaIterator.java`
+- `week8_task5_JavaInterface.java`
+- `week8_task6_JavaHashSet.java`
+- `week8_task7_JavaFactoryPattern.java`
+- `week8_task8_JavaMethodOverriding.java`
+- `week8_task9_JavaExceptionHandling.java`
+- `week8_task10_JavaExceptionHandlingTryCatch.java`
 
 ### 📁 `week 7/` — Object-Oriented Problem Solving
-
-| Task # | Problem Name | Platform | Key Concept | Solution File |
-| :--- | :--- | :--- | :--- | :--- |
-| **Task 1** | [Design Parking System](https://leetcode.com/problems/design-parking-system/) | LeetCode 1603 | Object Modeling, Slot Counters | [`Task01_DesignParkingSystem.java`](./week%207/Task01_DesignParkingSystem.java) |
-| **Task 2** | [Java instanceof Keyword](https://www.hackerrank.com/challenges/java-instanceof-keyword/problem) | HackerRank | Instanceof Operator | [`Task02_JavaInstanceOfKeyword.java`](./week%207/Task02_JavaInstanceOfKeyword.java) |
-| **Task 3** | [Design Underground System](https://leetcode.com/problems/design-underground-system/) | LeetCode 1396 | Association, Multi-Map Check-In | [`Task03_DesignUndergroundSystem.java`](./week%207/Task03_DesignUndergroundSystem.java) |
-| **Task 4** | [Design Browser History](https://leetcode.com/problems/design-browser-history/) | LeetCode 1472 | Stack/List History Pointer | [`Task04_DesignBrowserHistory.java`](./week%207/Task04_DesignBrowserHistory.java) |
-| **Task 5** | [Design HashSet](https://leetcode.com/problems/design-hashset/) | LeetCode 705 | Direct Addressing / Table | [`Task05_DesignHashSet.java`](./week%207/Task05_DesignHashSet.java) |
-| **Task 6** | [Grading Students](https://www.hackerrank.com/challenges/grading/problem) | HackerRank | Custom Method Rounding Rules | [`Task06_GradingStudents.java`](./week%207/Task06_GradingStudents.java) |
-| **Task 7** | [Java Inheritance I](https://www.hackerrank.com/challenges/java-inheritance-1/) | HackerRank | Subclassing (`extends`) | [`Task07_JavaInheritance1.java`](./week%207/Task07_JavaInheritance1.java) |
-| **Task 8** | [Java Inheritance II](https://www.hackerrank.com/challenges/java-inheritance-2/) | HackerRank | Parent-Child Hierarchy | [`Task08_JavaInheritance2.java`](./week%207/Task08_JavaInheritance2.java) |
-| **Task 9** | [Java Generics](https://www.hackerrank.com/challenges/java-generics/problem) | HackerRank | Generic Printing Method | [`Task09_JavaGenerics.java`](./week%207/Task09_JavaGenerics.java) |
-| **Task 10** | [Throne Inheritance](https://leetcode.com/problems/throne-inheritance/) | LeetCode 1600 | Tree Preorder DFS Succession | [`Task10_ThroneInheritance.java`](./week%207/Task10_ThroneInheritance.java) |
-
----
+- `week7_task1_JavaInstanceOfKeyword.java`
+- `week7_task2_DesignUndergroundSystem.java`
+- `week7_task3_DesignBrowserHistory.java`
+- `week7_task4_DesignHashSet.java`
+- `week7_task5_GradingStudents.java`
+- `week7_task6_JavaInheritance1.java`
+- `week7_task7_DesignParkingSystem.java`
+- `week7_task8_JavaInheritance2.java`
+- `week7_task9_JavaGenerics.java`
+- `week7_task10_ThroneInheritance.java`
 
 ### 📁 `week 6/` — KMP, Boyer Moore & Palindrome Techniques
-- String Similarity, Repeated Substring Pattern, Two Strings, Rotate String, Mars Exploration, Find All Anagrams, Palindrome Index, Find First Occurrence, Longest Palindromic Substring, Circular Palindromes
+- `week6_task1_RepeatedSubstringPattern.java`
+- `week6_task2_TwoStrings.java`
+- `week6_task3_RotateString.java`
+- `week6_task4_MarsExploration.java`
+- `week6_task5_FindAllAnagramsInAString.java`
+- `week6_task6_StringSimilarity.java`
+- `week6_task7_PalindromeIndex.java`
+- `week6_task8_FindTheIndexOfTheFirstOccurrenceInAString.java`
+- `week6_task9_LongestPalindromicSubstring.java`
+- `week6_task10_CircularPalindromes.java`
 
 ### 📁 `week 5/` — Algorithmic Thinking & Competitive Problem Patterns
-- Maximum Subarray, Subarray Division, Kadane's Algorithm, Circular Subarray, String to Integer (atoi), Alternating Characters, Longest Substring Without Repeating, Find and Replace Pattern, Substring Matching, Naive Pattern Search
+- `week5_task1_MaximumSumCircularSubarray.java`
+- `week5_task2_StringToIntegerAtoi.java`
+- `week5_task3_MaximumSubarray.java`
+- `week5_task4_SubarrayDivision.java`
+- `week5_task5_TheMaximumSubarray.java`
+- `week5_task6_AlternatingCharacters.java`
+- `week5_task7_LongestSubstringWithoutRepeatingCharacters.java`
+- `week5_task8_FindAndReplacePattern.java`
+- `week5_task9_StringMatchingInAnArray.java`
+- `week5_task10_NaivePatternSearching.java`
 
 ### 📁 `week 4/` — Algorithmic Thinking & Competitive Problem Patterns
-- String Halves, Lapindromes, Compare Triplets, Contains Duplicate, Time Conversion, Move Zeroes, Matrix Transpose, Matrix Block Sum, Matrix Layer Rotation, Matrix Multiplication
+- `week4_task1_MatrixLayerRotation.java`
+- `week4_task2_MultiplyMatrices.java`
+- `week4_task3_DetermineIfStringHalvesAreAlike.java`
+- `week4_task4_Lapindromes.java`
+- `week4_task5_CompareTheTriplets.java`
+- `week4_task6_ContainsDuplicate.java`
+- `week4_task7_TimeConversion.java`
+- `week4_task8_MoveZeroes.java`
+- `week4_task9_DiagonalDifference.java`
+- `week4_task10_TransposeMatrix.java`
+- `week4_task11_MatrixBlockSum.java`
 
 ### 📁 `week 3/` — Collections, Dates & Custom Comparators
-- Java Date & Time API, Priority Queue, Custom Comparators, Sort Array by Parity, Sort the People
+- `week3_task1_SortThePeople.java`
+- `week3_task2_JavaDateAndTime.java`
+- `week3_task3_NumberOfDaysBetweenTwoDates.java`
+- `week3_task4_DayOfTheYear.java`
+- `week3_task5_DayOfTheWeek.java`
+- `week3_task6_JavaPriorityQueue.java`
+- `week3_task7_JavaArrayList.java`
+- `week3_task8_LargestNumber.java`
+- `week3_task9_JavaComparator.java`
+- `week3_task10_SortArrayByParity.java`
 
 ### 📁 `week 2/` — Array & String Problem Patterns
-- Build Array, Remove Element/Duplicates, Max Subarray, Group Anagrams, Top K Frequent, Java Deque
+- `week2_task1_JavaHashSet.java`
+- `week2_task2_BuildArray.java`
+- `week2_task3_ShuffleArray.java`
+- `week2_task4_RemoveElement.java`
+- `week2_task5_RemoveDuplicates.java`
+- `week2_task6_MaxSubarray.java`
+- `week2_task7_HighestAltitude.java`
+- `week2_task8_GroupAnagrams.java`
+- `week2_task9_TopKFrequent.java`
+- `week2_task10_JavaDequeue.java`
 
 ### 📁 `week 1/` — Data Structures & Basic Algorithms
-- Linear/Binary Search, Bubble/Selection/Insertion Sort, Factorial, Fibonacci, Palindrome, Prime Check, Linked List, Stack
+- `week1_task1_PrimeNumber.java`
+- `week1_task2_ReverseString.java`
+- `week1_task3_Palindrome.java`
+- `week1_task4_Stack.java`
+- `week1_task5_LinkedList.java`
+- `week1_task6_Student.java`
+- `week1_task7_PrintArray.java`
+- `week1_task8_MaxMinArray.java`
+- `week1_task9_LinearSearch.java`
+- `week1_task10_BinarySearch.java`
+- `week1_task11_BubbleSort.java`
+- `week1_task12_SelectionSort.java`
+- `week1_task13_InsertionSort.java`
+- `week1_task14_Factorial.java`
+- `week1_task15_Fibonacci.java`
+
+### 📁 `class task/` — Streams & Date/Time Exercises
+- `classtask_task1_AgeCalculator.java`
+- `classtask_task2_CurrentLocalDateTime.java`
+- `classtask_task3_SquaresOfEvenNumbersStream.java`
+- `classtask_task4_StreamPipelineDemo.java`
+- `classtask_task5_UppercaseNamesStream.java`
 
 ---
 
 ## 🛠️ How to Run
 
 ```bash
-# Navigate to Week 7 or Week 8 folder
-cd "week 7"
-
-# Compile any Java file
-javac Task01_DesignParkingSystem.java
-
-# Execute
-java Task01_DesignParkingSystem
+# Example: Compile and run any task
+javac week8_task1_JavaMethodOverriding2SuperKeyword.java
+java week8_task1_JavaMethodOverriding2SuperKeyword
 ```
