@@ -2,7 +2,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class classtask_task4_StreamPipelineDemo {
+public class classtask_task14_StreamPipelineDemo {
     public static void main(String[] args) {
         List<String> fruits = Arrays.asList("apple", "banana", "avocado", "cherry", "apricot", "mango");
 

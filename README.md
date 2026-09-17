@@ -1,21 +1,38 @@
 # Java Problem Solving Programs 🚀
 
-A comprehensive repository of well-commented Java programs covering fundamental programming topics, data structures, algorithms, object-oriented design patterns, streams API, and competitive problem-solving syllabus tasks.
+A comprehensive repository of well-commented Java programs covering fundamental programming topics, data structures, algorithms, object-oriented design patterns, streams API, classroom exercises, and competitive problem-solving syllabus tasks.
 
 ---
 
-## 📚 Repository Structure & Syllabus Tasks
+## 📚 Repository Structure
 
 ### 📁 `Syllabus_Tasks/` — Comprehensive Course Syllabus Tasks
+- `Syllabus_Task1_SalaryTransformation.java`
+- `Syllabus_Task2_StreamAnalyticsEngine.java`
+- `Syllabus_Task3_MaximumProfitAnalyzer.java`
+- `Syllabus_Task4_DNAPatternSearch.java`
+- `Syllabus_Task5_BankingTransactionSystem.java`
+- `Syllabus_Task6_RideSharingSimulator.java`
 
-| Task # | Problem Name | Key Concept | Solution File |
-| :--- | :--- | :--- | :--- |
-| **Syllabus Task 1** | Salary Transformation | Streams API (`mapToObj`, `Math.round`, `joining`) | [`Syllabus_Task1_SalaryTransformation.java`](./Syllabus_Tasks/Syllabus_Task1_SalaryTransformation.java) |
-| **Syllabus Task 2** | Stream Analytics Engine | Streams API (`filter`, `groupingBy`, `averagingDouble`, `sorted`) | [`Syllabus_Task2_StreamAnalyticsEngine.java`](./Syllabus_Tasks/Syllabus_Task2_StreamAnalyticsEngine.java) |
-| **Syllabus Task 3** | Maximum Profit Analyzer | Kadane's Algorithm ($O(N)$ Max Subarray Sum) | [`Syllabus_Task3_MaximumProfitAnalyzer.java`](./Syllabus_Tasks/Syllabus_Task3_MaximumProfitAnalyzer.java) |
-| **Syllabus Task 4** | DNA Pattern Search | KMP (Knuth-Morris-Pratt) String Matching | [`Syllabus_Task4_DNAPatternSearch.java`](./Syllabus_Tasks/Syllabus_Task4_DNAPatternSearch.java) |
-| **Syllabus Task 5** | Banking Transaction System | OOP Encapsulation (`BankAccount` class) | [`Syllabus_Task5_BankingTransactionSystem.java`](./Syllabus_Tasks/Syllabus_Task5_BankingTransactionSystem.java) |
-| **Syllabus Task 6** | Ride Sharing Simulator | Polymorphism, Factory Pattern, Custom Exception | [`Syllabus_Task6_RideSharingSimulator.java`](./Syllabus_Tasks/Syllabus_Task6_RideSharingSimulator.java) |
+---
+
+### 📁 `class task/` — Classroom Tasks & Streams Exercises
+- `classtask_task1_SquareOfNumbers.java`
+- `classtask_task2_RemoveDuplicates.java`
+- `classtask_task3_CalculateAverage.java`
+- `classtask_task4_CountStudentsAboveThreshold.java`
+- `classtask_task5_StreamPipeline.java`
+- `classtask_task6_SalaryAscending.java`
+- `classtask_task7_SalaryDescending.java`
+- `classtask_task8_DepartmentAlphabetical.java`
+- `classtask_task9_DepartmentThenSalaryDescending.java`
+- `classtask_task10_ManacherPalindromeChecker.java`
+- `classtask_task11_AgeCalculator.java`
+- `classtask_task12_CurrentLocalDateTime.java`
+- `classtask_task13_SquaresOfEvenNumbersStream.java`
+- `classtask_task14_StreamPipelineDemo.java`
+- `classtask_task15_UppercaseNamesStream.java`
+- `Employee.java` (helper data model)
 
 ---
 
@@ -121,19 +138,12 @@ A comprehensive repository of well-commented Java programs covering fundamental 
 - `week1_task14_Factorial.java`
 - `week1_task15_Fibonacci.java`
 
-### 📁 `class task/` — Streams & Date/Time Exercises
-- `classtask_task1_AgeCalculator.java`
-- `classtask_task2_CurrentLocalDateTime.java`
-- `classtask_task3_SquaresOfEvenNumbersStream.java`
-- `classtask_task4_StreamPipelineDemo.java`
-- `classtask_task5_UppercaseNamesStream.java`
-
 ---
 
 ## 🛠️ How to Run
 
 ```bash
-# Example: Compile and run any Syllabus Task
-javac Syllabus_Tasks/Syllabus_Task1_SalaryTransformation.java
-java Syllabus_Tasks.Syllabus_Task1_SalaryTransformation
+# Example: Compile and run any task
+javac "class task/classtask_task1_SquareOfNumbers.java"
+java classtask_task1_SquareOfNumbers
 ```

@@ -2,7 +2,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class classtask_task5_UppercaseNamesStream {
+public class classtask_task15_UppercaseNamesStream {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("john", "alice", "bob", "david", "emma");
 

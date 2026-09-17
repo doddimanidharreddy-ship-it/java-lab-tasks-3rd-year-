@@ -4,7 +4,7 @@ import java.time.LocalTime;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class classtask_task2_CurrentLocalDateTime {
+public class classtask_task12_CurrentLocalDateTime {
     public static void main(String[] args) {
         LocalDate currentDate = LocalDate.now();
         LocalTime currentTime = LocalTime.now();
