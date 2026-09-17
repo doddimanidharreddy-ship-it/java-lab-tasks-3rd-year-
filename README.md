@@ -1,10 +1,23 @@
 # Java Problem Solving Programs 🚀
 
-A comprehensive repository of well-commented Java programs covering fundamental programming topics, data structures, algorithms, object-oriented design patterns, and competitive problem-solving patterns.
+A comprehensive repository of well-commented Java programs covering fundamental programming topics, data structures, algorithms, object-oriented design patterns, streams API, and competitive problem-solving syllabus tasks.
 
 ---
 
-## 📚 Repository Structure & Standardized Files
+## 📚 Repository Structure & Syllabus Tasks
+
+### 📁 `Syllabus_Tasks/` — Comprehensive Course Syllabus Tasks
+
+| Task # | Problem Name | Key Concept | Solution File |
+| :--- | :--- | :--- | :--- |
+| **Syllabus Task 1** | Salary Transformation | Streams API (`mapToObj`, `Math.round`, `joining`) | [`Syllabus_Task1_SalaryTransformation.java`](./Syllabus_Tasks/Syllabus_Task1_SalaryTransformation.java) |
+| **Syllabus Task 2** | Stream Analytics Engine | Streams API (`filter`, `groupingBy`, `averagingDouble`, `sorted`) | [`Syllabus_Task2_StreamAnalyticsEngine.java`](./Syllabus_Tasks/Syllabus_Task2_StreamAnalyticsEngine.java) |
+| **Syllabus Task 3** | Maximum Profit Analyzer | Kadane's Algorithm ($O(N)$ Max Subarray Sum) | [`Syllabus_Task3_MaximumProfitAnalyzer.java`](./Syllabus_Tasks/Syllabus_Task3_MaximumProfitAnalyzer.java) |
+| **Syllabus Task 4** | DNA Pattern Search | KMP (Knuth-Morris-Pratt) String Matching | [`Syllabus_Task4_DNAPatternSearch.java`](./Syllabus_Tasks/Syllabus_Task4_DNAPatternSearch.java) |
+| **Syllabus Task 5** | Banking Transaction System | OOP Encapsulation (`BankAccount` class) | [`Syllabus_Task5_BankingTransactionSystem.java`](./Syllabus_Tasks/Syllabus_Task5_BankingTransactionSystem.java) |
+| **Syllabus Task 6** | Ride Sharing Simulator | Polymorphism, Factory Pattern, Custom Exception | [`Syllabus_Task6_RideSharingSimulator.java`](./Syllabus_Tasks/Syllabus_Task6_RideSharingSimulator.java) |
+
+---
 
 ### 📁 `week 8/` — Object-Oriented Problem Solving & Design Patterns
 - `week8_task1_JavaMethodOverriding2SuperKeyword.java`
@@ -120,7 +133,7 @@ A comprehensive repository of well-commented Java programs covering fundamental 
 ## 🛠️ How to Run
 
 ```bash
-# Example: Compile and run any task
-javac week8_task1_JavaMethodOverriding2SuperKeyword.java
-java week8_task1_JavaMethodOverriding2SuperKeyword
+# Example: Compile and run any Syllabus Task
+javac Syllabus_Tasks/Syllabus_Task1_SalaryTransformation.java
+java Syllabus_Tasks.Syllabus_Task1_SalaryTransformation
 ```
